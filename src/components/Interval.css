@@ -1,0 +1,28 @@
+.interval {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.interval .interval__section {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.interval .interval__section p {
+  font-size: 15px;
+  color: #334155;
+  font-weight: 500;
+}
+
+.interval .interval__section input {
+  border: none;
+  font-size: 15px;
+  color: #111827;
+  padding: 5px 12px;
+  border-radius: 9999px;
+}

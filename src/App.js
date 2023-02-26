@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Card } from './components/Card';
+import { Interval } from './components/Interval';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="mb-40">react & redux</h1>
+      <div className="row">
+        <div className="grid-area-2">
+          <Interval></Interval>
+        </div>
+      </div>
+      <div className="row">
+        <Card title="#1" color="red">
+          description...
+        </Card>
+        <Card title="#2" color="green">
+          description...
+        </Card>
+      </div>
     </div>
   );
 }
